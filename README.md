@@ -1,4 +1,4 @@
-# docker-php7.0-apache
+# docker-php5.6-apache
 Docker image with old php 5.6 running on apache2 with usual php extensions:
 
 - php5.6
