@@ -19,6 +19,7 @@ RUN echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt
 RUN DEBIAN_FRONTEND=noninteractive apt update && apt upgrade -y && apt install -y \
     php5.6 \
     php5.6-bcmath \
+    php5.6-curl \
     php5.6-gd \
     php5.6-mcrypt \
     php5.6-mbstring \
