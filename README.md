@@ -15,6 +15,6 @@ Docker image with old php 5.6 running on apache2 with usual php extensions:
 Based on Debian stretch
 
 # sample usage
-docker run -d -v /var/www/html:/var/www/html -p 8000:80 alcalbg/php5.6-apache
+```docker run -d -v /var/www/html:/var/www/html -p 8000:80 alcalbg/php5.6-apache```
 http://localhost:8000/
 
