@@ -16,5 +16,5 @@ Based on Debian stretch
 
 # sample usage
 ```docker run -d -v /var/www/html:/var/www/html -p 8000:80 alcalbg/php5.6-apache```
-http://localhost:8000/
+```http://localhost:8000/```
 
